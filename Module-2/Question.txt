@@ -1,0 +1,50 @@
+Q1: What is JavaScript Output method? 
+Ans: JavaScript provides several methods for outputting information to the console or to the web page. 
+The most commonly used methods for outputting in JavaScript are:
+1. console.log() is used to print messages to the browser console.
+2. alert() is a method that displays a pop-up dialog box with a message and an OK button.
+3. document.write() is a method that writes HTML content directly to the webpage. 
+4. innerHTML is a property of HTML elements that allows you to set or retrieve the HTML content within an element.
+
+Q2: How to used JavaScript Output method?
+Ans: 
+1. Use console.log():
+<script>
+  console.log("Hello, World!");
+</script>
+
+2. Using alert():
+<script>
+  alert("This is an alert message!");
+</script>
+
+3. Using document.write():
+<script>
+  document.write("This will be written to the webpage.");
+</script>
+
+4.  Using innerHTML:
+<script>
+  document.getElementById("myElement").innerHTML = "New content";
+</script>
+
+Q3: How to used JavaScript Events to do all examples?
+Ans: 
+1. Create an HTML File (if not already done).
+2. Add a Button Element:
+In your HTML file, add a button element with an ID.
+
+Example:
+In HTML
+<button id="myButton">Click me</button>
+
+In script
+<script>
+  document.getElementById("myButton").addEventListener("click", function() {
+    console.log("Button clicked!");
+  });
+</script>
+
+3. Open in Browser and Click the Button:
+Save your HTML file and open it in a web browser. 
+When you click the button, you should see the message in the console.

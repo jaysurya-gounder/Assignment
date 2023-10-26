@@ -1,0 +1,38 @@
+table{
+    width: 1000px;
+    border: 1px solid black;
+    margin: auto;
+    margin-top: 50px;
+}
+
+th{
+    border: 1px solid black;
+    width: 80px;
+}
+
+td{
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+}
+
+td input {
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+}
+
+td button {
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: orangered;
+    cursor: pointer;
+}
+
+td img {
+    width: 100px;
+    height: 100px;
+}
