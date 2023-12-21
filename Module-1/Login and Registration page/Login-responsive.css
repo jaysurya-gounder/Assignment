@@ -1,0 +1,74 @@
+@media screen and (max-width: 1024px) {
+    #main {
+        width: 90%;
+        height: 100%;
+        padding-top: 50px;
+    }
+
+    .content {
+        width: 100%;
+        height: 90%;
+    }
+
+    .login-sec{
+        width: 80%;
+        height: 85%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .section{
+        width: 100vw;
+        height: 100vh;
+        background-color: #F0F2F5;
+    }
+
+    #main {
+        width: 100%;
+        padding-top: 40px;
+        padding-top: 0%;
+    }
+
+    .content {
+        display: block;
+        width: 100%;
+        height: 100%;
+        background-color: #F0F2F5;
+        border-radius: 0;
+    }
+
+    .login-ctn:first-child {
+        width: 100%;
+        height: 15%;
+        background-color: #0866FF;
+        position: relative;
+        display: block;
+    }
+
+    .login-ctn{
+        display: block;
+        width: 90%;
+        height: 90%;
+    }
+
+    .brand-logo{
+        width: 50%;
+        height: 10%;
+        margin-left: 50px;
+    }
+
+    .brand-logo h5{
+        display: none;
+    }
+
+    #logo-img{
+        width: 220px;
+        height: 105px;
+        margin-top: -10px;
+    }
+
+    .login-sec{
+        width: 80%;
+        height: 85%;
+    }
+}

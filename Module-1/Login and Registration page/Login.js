@@ -15,8 +15,6 @@ function closepage() {
 /* array to store user data */
 let users = [];
 
-console.log(users)
-
 /* function to handle registration */
 document.getElementById('signup-ctn').addEventListener('submit', (event) => {
     event.preventDefault();
