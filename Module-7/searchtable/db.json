@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 5,
+      "name": "sssss",
+      "price": "sss222",
+      "category": "sss33"
+    },
+    {
+      "id": 6,
+      "name": "ss",
+      "price": "ssss",
+      "category": "ssss"
+    },
+    {
+      "id": 7,
+      "name": "ss",
+      "price": "sssss",
+      "category": "sssss"
+    },
+    {
+      "id": 8,
+      "name": "ss",
+      "price": "ss",
+      "category": "sss"
+    },
+    {
+      "id": 9,
+      "name": "asass",
+      "price": "asas",
+      "category": "asas"
+    },
+    {
+      "id": 10,
+      "name": "shirt",
+      "price": "2000",
+      "category": "fashion"
+    },
+    {
+      "id": 11,
+      "name": "jaaa",
+      "price": "3444",
+      "category": "asbkjas"
+    }
+  ]
+}

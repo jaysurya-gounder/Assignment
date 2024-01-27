@@ -1,0 +1,36 @@
+1. What is Redux?
+Ans: Redux is an open-source JavaScript library for managing the state of a web application.
+It is commonly used with React, but it can be integrated with other libraries and frameworks as well. 
+Redux helps in managing the state of an application in a predictable way, making it easier to understand and debug.
+
+2. What is Redux Thunk used for?
+Ans: Redux Thunk is a middleware for the Redux library that allows 
+users to write asynchronous logic that interacts with the store.
+It allows users to return functions instead of actions within Redux. 
+
+Redux Thunk is used for:
+-> Delayed actions, including working with promises
+-> Handling actions that might not be synchronous
+-> Delaying the dispatch of an action
+-> Dispatching only if a certain condition is met
+
+3. What is Pure Component? When to use Pure Component over Component?
+Ans: A Pure Component in React is a type of component that only re-renders when its props or state change. 
+They are also known as "stateless components" or "dumb components".
+
+Pure components optimize rendering performance by comparing props and state.
+They do not re-render when the value of state and props has been updated with the same values.
+
+Pure components are primarily used for performance optimization. 
+You can use React.PureComponent for a performance boost in some cases if your React component's render()
+function renders the same result given the same props and state. 
+
+4.What is the second argument that can optionally be passed to setState and what is its purpose?
+Ans: The second argument that can optionally be passed to setState is a callback function
+which gets called immediately after the setState is completed and the components get re-rendered. 
+
+If you want your program to update the value of a state using setState and 
+then perform certain actions on the updated value of the state then you must 
+specify those actions in a function which should be the second argument of the setState. 
+If we do not do so then those actions will be performed on the previous value of state 
+because of the asynchronous nature of setState.
